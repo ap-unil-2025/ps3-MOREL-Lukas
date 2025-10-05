@@ -31,9 +31,16 @@ def temperature_converter():
     2. Current unit (C or F)
     3. Convert and display result
     """
-    temperature = input("temperature to convert")
+    temperature = input("temperature to convert ")
+    unit = input("C or F ")
     print("Temperature Converter")
     print("-" * 30)
+    if unit == "C":
+        print(round(celsius_to_fahrenheit(temperature)),2)
+    elif unit == "F":
+        print(round(fahrenheit_to_celsius(temperature)),2)
+    else:
+        print("wrong unit")
 
     # TODO: Implement the interactive converter
     # Remember to:
