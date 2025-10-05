@@ -55,38 +55,38 @@ def analyze_numbers(numbers):
     summ = 0
     for e in numbers:
         count += 1
-    analysis["count: "] = count
+    analysis["count"] = count
     # TODO: Calculate sum
     for e in numbers:
         summ += e
-    analysis["sum: "] = summ
+    analysis["sum"] = summ
     # TODO: Calculate average
     avg = summ/count
-    analysis["average: "] = avg
+    analysis["average"] = avg
     # TODO: Find minimum
     mini = 10000
     for e in numbers:
         if e < mini:
             mini = e
-    analysis["minimum: "] = mini
+    analysis["minimum"] = mini
     # TODO: Find maximum
     maxi = 0
     for e in numbers:
         if e > maxi:
             maxi = e
-    analysis["maximum: "] = maxi
+    analysis["maximum"] = maxi
     # TODO: Count even numbers (hint: use modulo operator)
     even = 0
     for e in numbers:
         if e%2 == 0:
             even += 1
-    analysis["even_count: "] = even
+    analysis["even_count"] = even
     # TODO: Count odd numbers
     odd = 0
     for e in numbers:
         if e%2 == 1:
             odd += 1
-    analysis["odd_count: "] = odd
+    analysis["odd_count"] = odd
     return analysis
 
 
