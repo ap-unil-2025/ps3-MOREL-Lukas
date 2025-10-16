@@ -1,0 +1,7 @@
+ef5754e Morel 05.10.2025
+0fb16e4 Morel 05.10.2025
+217240b Morel 05.10.2025
+6c244b7 Lukas Morel 29.09.2025
+6d6915e Lukas Morel 29.09.2025
+7bcb689 Add GitHub Classroom autograding configuration
+2dc2daa Initial commit
